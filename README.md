@@ -1,46 +1,120 @@
-# Retail Sales Analysis
+# 📊 Retail Sales Analysis (2023–2024)
 
 This project analyzes retail store sales data using Python-based data analysis techniques.  
-The initial implementation focuses on **NumPy** for numerical computation and low-level data manipulation, aiming to understand the core mechanics behind data analysis workflows.
+It focuses on **exploratory data analysis (EDA)**, data cleaning, and visualization to extract meaningful business insights from transactional retail data.
 
-The project is designed to be extensible and may later incorporate additional tools such as Pandas, visualization libraries, or more advanced analytical methods.
+The project includes a full analytical workflow, from data inspection to business recommendations, supported by visual storytelling through charts and a final dashboard.
 
-## Project Structure
+---
 
-- `data/`: Contains the dataset files.
-- `notebooks/`: Contains Jupyter notebooks for exploratory analysis and experimentation.
-- `src/`: Contains reusable source code for data processing and analysis logic.
-- `README.md`: Project documentation.
+## 🎯 Project Objectives
 
-## Installation
+- Understand sales performance over time  
+- Identify key revenue drivers  
+- Analyze customer purchasing behavior  
+- Explore product category performance  
+- Generate actionable business insights  
+
+---
+
+## 📁 Project Structure
+
+- `data/` → Contains the dataset files  
+- `notebooks/` → Jupyter notebooks for analysis and exploration  
+- `src/` → Reusable Python scripts (if applicable)  
+- `reports/` → Final PDF report and presentation outputs  
+- `images/` → Visualizations and dashboard exports  
+- `README.md` → Project documentation  
+
+---
+
+## 📊 Dataset
+
+The dataset used in this project is a **Retail Sales Dataset (2023–2024)** from Kaggle.
+
+It contains:
+- Customer demographics (Age, Gender, Customer ID)  
+- Product information (Category, Price, Quantity)  
+- Transaction details (Date, Total Amount)  
+
+---
+
+## 🔧 Installation
 
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/heleneInsights/retail-sales-analysis.git
 ```
+2. Install dependencies:
 
-2. Install the dependencies: `pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
-## Usage
+---
 
-Run the Jupyter notebooks in the `notebooks` folder to perform the data analysis.
+## 🚀 Usage
 
-Alternatively, you may run scripts from the src/ directory if implemented.
+Open and run the Jupyter notebooks inside the `notebooks/` folder to reproduce the analysis.
 
-## Current Focus
+Alternatively, Python scripts in the `src/` directory can be executed if applicable.
 
-- Data exploration using NumPy
+---
+
+## 📈 Key Analysis Performed
 - Data cleaning and preprocessing
-- Statistical analysis of sales data
-- Identification of key business patterns
+- Exploratory data analysis (EDA)
+- Correlation analysis between numerical variables
+- Customer behavior analysis
+- Product category performance analysis
+- Time-based sales trends
+- Data visualization using Matplotlib and Seaborn
+- Combined sales dashboard creation
 
-## Future Improvements
+---
 
-- Pandas-based data manipulation layer
-- Data visualization (Matplotlib / Seaborn)
-- More advanced exploratory analysis techniques
-- Potential predictive modeling or forecasting
+## 📊 Key Insights
+- Sales peak in May, October, and December
+- Electronics is the highest revenue-generating category
+- Beauty contributes the least revenue
+- Female customers spend slightly more than male customers
+- Spending behavior is consistent across age groups
+- Higher quantity purchased leads to higher total revenue
+- Most products are concentrated in lower price ranges
+
+---
+
+## 📄 Final Report
+
+The full analysis report is available here:
+
+👉 reports/retail_sales_analysis_report.pdf
+
+It includes:
+
+- Data exploration
+- Visual analysis
+- Business insights
+- Final recommendations
+
+---
+
+## 📌 Future Improvements
+- Advanced customer segmentation (clustering)
+- Time series forecasting for sales prediction
+- Deeper analysis of pricing strategy
+- Interactive dashboard (Plotly / Power BI integration)
+
+---
+
+## ⚠️ Limitations
+- Analysis is exploratory and descriptive in nature
+- No predictive modeling was performed
+- Further segmentation and statistical testing could enhance insights
+- Some patterns may require deeper domain-specific analysis
+
+---
 
 ## 👤 Author
 
